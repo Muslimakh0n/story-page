@@ -17,6 +17,23 @@ const MensPage = () => {
           </p>
         </div>
       </div>
+
+      <main>
+        <nav className="main_nav">
+          <ul className="main_list">
+            <li className="main_item">Новинки</li>
+            <li className="main_item">Популярные</li>
+            <li className="main_item">Редактировать</li>
+          </ul>
+        </nav>
+        <div className="main_sort">
+          <div className="main_sort-left">
+            <p>Последние поступления</p>
+            <h1>Новые рисунки</h1>
+          </div>
+          <div className="main_sort-right"></div>
+        </div>
+      </main>
     </div>
   );
 };
