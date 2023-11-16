@@ -12,7 +12,7 @@
   background-color: lightgray;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  padding: 106px 80px;
+  padding: 83px 80px;
 }
 
 .side-img {
@@ -22,4 +22,12 @@
 .side-img img {
   width: 100%;
   height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
