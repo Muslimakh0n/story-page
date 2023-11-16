@@ -29,6 +29,13 @@ const Header = () => {
             <button className="nav_right-bttn">Contact Us</button>
           </div>
         </div>
+        <div className="search">
+          <input
+            className="search-input"
+            type="text"
+            placeholder="Search for products, brands or sellers..."
+          />
+        </div>
       </div>
     </nav>
   );

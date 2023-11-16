@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10%;
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 50%;
+  background-color: lightgray;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 106px 80px;
+}
+
+.side-img {
+  max-width: 50%;
+}
+
+.side-img img {
+  width: 100%;
+  height: auto;
+}
